@@ -37,7 +37,7 @@ function NameGate({ onEnter }) {
             type="text"
             maxLength={24}
             autoComplete="off"
-            placeholder="e.g. Talha"
+            placeholder=""
             value={value}
             onChange={(e) => setValue(e.target.value)}
             aria-describedby="invite-hint"

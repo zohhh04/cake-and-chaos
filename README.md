@@ -1,16 +1,30 @@
-# React + Vite
+# 🎂 Cake & Chaos — A Birthday Adventure
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A fun, interactive birthday surprise website made with love by **Zeba** for **Talha's** birthday. No photos, no logins, no backends — just React, CSS, SVG, emojis & love.
 
-Currently, two official plugins are available:
+Enter your name, unlock the mission, then scroll through a little adventure: letter → cake → wishes → mini-games → friendship terms → finale.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ What's inside
 
-## React Compiler
+- 🎟️ **Name Gate + Welcome Screen** — personalized invite entry
+- 💌 **Birthday Letter** — envelope animation with typewriter effect
+- 🎂 **Interactive Cake** — make a wish, blow out candles, take the knife & cut on the mark
+- 💖 **Birthday Wishes** — tap-to-reveal wish cards
+- 🎮 **Mini-Games** — compliment catcher, mystery gifts & birthday quiz
+- 📜 **Friendship Terms** — funny non-negotiable conditions
+- 🎉 **Final Surprise** — confetti, fireworks & celebration
+- 🎨 **4 Themes** — sky, pink, mint & midnight + starfield background with music/sound effects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built with
 
-## Expanding the Oxlint configuration
+React 19 + Vite, `canvas-confetti`, `lucide-react`, plain CSS (no UI framework).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 Run it
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+Open the `dev` URL, type the birthday star's name, and enjoy the mission! 🎉
