@@ -1,14 +1,14 @@
+import { ArrowUp, PartyPopper, Ticket } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import { ArrowUp, Ticket, PartyPopper } from 'lucide-react';
-import Starfield from './components/Starfield.jsx';
-import Navbar from './components/Navbar.jsx';
-import WelcomeScreen from './components/WelcomeScreen.jsx';
-import LetterSection from './components/LetterSection.jsx';
 import CakeSection from './components/CakeSection.jsx';
-import WishesSection from './components/WishesSection.jsx';
-import GamesSection from './components/GamesSection.jsx';
-import TermsSection from './components/TermsSection.jsx';
 import FinaleSection from './components/FinaleSection.jsx';
+import GamesSection from './components/GamesSection.jsx';
+import LetterSection from './components/LetterSection.jsx';
+import Navbar from './components/Navbar.jsx';
+import Starfield from './components/Starfield.jsx';
+import TermsSection from './components/TermsSection.jsx';
+import WelcomeScreen from './components/WelcomeScreen.jsx';
+import WishesSection from './components/WishesSection.jsx';
 import { fireworksShow } from './lib/celebrate.js';
 import { playPop } from './lib/sound.js';
 
