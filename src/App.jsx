@@ -54,9 +54,7 @@ function NameGate({ onEnter }) {
 }
 
 export default function App() {
-  const [name, setName] = useState(() => {
-    try { return localStorage.getItem('birthday-name') || ''; } catch { return ''; }
-  });
+  const [name, setName] = useState('');
   const [theme, setTheme] = useState(() => {
     try { return localStorage.getItem('birthday-theme') || 'sky'; } catch { return 'sky'; }
   });
